@@ -8,6 +8,6 @@ ta=12% of basic, hra=15% of basic.
 7. Find the sum of three-digit number.
 8. Write a program to swap two numbers using third variable.
 9. Write a program to swap two numbers without using third variable.
-10. Write a program to reverse three-digit number.
+10. Write a program to reverse three-digit numbers.
 11. Write a program to accept an integer amount from user and tell minimum
-number of notes needed for representing that amount.
+number of notes needed for representing that amount. 
