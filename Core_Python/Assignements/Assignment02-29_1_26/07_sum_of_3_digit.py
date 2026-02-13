@@ -12,6 +12,7 @@ number = number // 10
 
 # Extract first digit
 d3 = number % 10
+number = number // 10
 
 # Sum of digits
 sum_of_digits = d1 + d2 + d3

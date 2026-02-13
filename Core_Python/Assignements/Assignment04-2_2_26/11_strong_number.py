@@ -1,1 +1,0 @@
-# 11. WAP to check if given number Strong Number.

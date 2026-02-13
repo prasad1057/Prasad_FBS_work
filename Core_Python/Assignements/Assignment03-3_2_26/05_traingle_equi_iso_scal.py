@@ -1,5 +1,8 @@
 # 5. Write a program to check whether the triangle is equilateral, isosceles or scalene triangle.
 
+# equilateral --> means all sides are equal
+# isosceles   --> means any two sides are equal
+# scalene     --> means all sides are different
 
 side1 = int(input('Enter the side 1: '))
 side2 = int(input('Enter the side 2: '))

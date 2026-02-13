@@ -9,8 +9,6 @@ Total_sec = (hour * 3600) + (minutes * 60) + seconds
 print('Time Converted into seconds: ',Total_sec)
 
 
-
-
 '''
 NOTE:
 This program converts hours and minutes into seconds using multiplication
