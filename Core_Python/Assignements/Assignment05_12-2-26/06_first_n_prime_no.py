@@ -1,21 +1,19 @@
 # 6. Write a program to print first n prime numbers.
 
 
-n = int(input("Enter how many prime numbers: "))
+num = int(input("Enter how many prime numbers you want: "))
 
 count = 0
-num = 2
+n = 2
 
-while count < n:
-    i = 2
-    
-    while i < num:
-        if num % i == 0:
+while count < num:
+    for i in range(2,n):
+        if n % i == 0:
             break
-        i += 1
     
-    if i == num:
-        print(num)
+    else:
+        print(n)
         count += 1
-    
-    num += 1
+        
+    n += 1
+        

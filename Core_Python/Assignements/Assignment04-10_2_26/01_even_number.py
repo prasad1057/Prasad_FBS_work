@@ -2,10 +2,16 @@
 
 number = int(input('Enter the number: '))
 
-i = 1
+# i = 1
 
-while(i <= number):
+# while(i <= number):
+#     if i % 2 == 0:
+#         print(i)
+#     i += 1
+    
+    
+
+for i in range(1,number+1):
     if i % 2 == 0:
         print(i)
-    i += 1
-    
+        

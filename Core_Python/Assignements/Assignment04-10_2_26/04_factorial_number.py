@@ -2,14 +2,18 @@
 
 number = int(input('Enter the number: '))
 fact = 1
-i = 1
+# i = 1
 
-while(i <= number):
+# while(i <= number):
+#     fact = fact * i
+#     i += 1
+    
+# print(fact)
+
+
+for i in range(1,number+1):
     fact = fact * i
-    i += 1
     
 print(fact)
-
-
 
 
