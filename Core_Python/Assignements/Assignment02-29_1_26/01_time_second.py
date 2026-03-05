@@ -1,6 +1,6 @@
 # 1. Convert the time entered in hh,min and sec into seconds.
 
-hour = int(input('Enter the hour: '))
+hour    = int(input('Enter the hour: '))
 minutes = int(input('Enter the minutes: '))
 seconds = int(input('Enter the seconds: '))
 
