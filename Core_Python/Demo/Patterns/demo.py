@@ -129,3 +129,46 @@ for i in range(1,6):                                                         #  
             print(' ', end=' ')
     print()
     
+    
+
+print('-----------------------')
+
+
+for i in range(1,6):                    # 1 2 3 4
+    for j in range(1,6-i):              # 1 2 3
+        print(j, end=' ')               # 1 2
+    print()                             # 1
+
+
+print('-----------------------')
+
+
+for i in range(1,6):                    # 1 
+    for j in range(1,i+1):              # 1 2 
+        print(j, end=' ')               # 1 2 3 
+    print()                             # 1 2 3 4
+
+
+print('-----------------------')
+
+
+for i in range(1,6):                     
+    for j in range(1,i+1):              
+        print(j, end='')                
+    if (i != 4):                        # 1+12+123+123412345+
+        print('+',end='')
+        
+  
+    
+print('-----------------------')
+
+
+for i in range(1,6):                           #  5 4 3 2 1
+    for j in range(6-i,0,-1):                  #  4     1
+        if (j == 1 or i == 1 or i + j == 6):   #  3   1
+            print(j, end=' ')                  #  2 1
+        else:                                  #  1
+            print(' ',end=' ')
+    print()                             
+    
+ 
