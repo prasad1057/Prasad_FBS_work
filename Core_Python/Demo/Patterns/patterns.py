@@ -171,4 +171,39 @@ for i in range(1,6):                           #  5 4 3 2 1
             print(' ',end=' ')
     print()                             
     
- 
+    
+print('-----------------------')
+
+
+for i in range(1,6):                           #  * * * * *
+    for j in range(1,6):                       #  $ $ $ $ $
+        if (i == 1 or i == 3 or i == 5):       #  * * * * *
+            print('*', end=' ')                #  $ $ $ $ $
+        else:                                  #  * * * * *
+            print('$',end=' ')
+    print()  
+    
+    
+print('-----------------------')
+
+
+for i in range(1,6):                           #  * $ * $ *
+    for j in range(1,6):                       #  $ * $ * $
+        if (i + j) % 2 == 0:                   #  * $ * $ *
+            print('*', end=' ')                #  $ * $ * $
+        else:                                  #  * $ * $ *
+            print('$',end=' ')
+    print() 
+    
+    
+print('-----------------------')
+
+
+for i in range(1,6):                           
+    for j in range(2,i+1):                       # * * * * * 
+        print(' ',end=' ')                       #   * * * *
+                                                 #     * * *
+    for k in range(1,7-i):                       #       * *            
+        print('*',end=' ')                       #         *
+    print() 
+    
