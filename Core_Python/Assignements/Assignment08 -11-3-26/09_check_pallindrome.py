@@ -2,20 +2,6 @@
 
 
 
-# without passing parameter
-# wihtout return value
-
-# with passing parameter
-# without return value
-
-# wihtout passing parameter
-# with returning value
-
-# with passing parameter
-# with return value
-
-
-
 
 # without passing parameter
 # wihtout return value
