@@ -21,5 +21,5 @@ if len(character) == 1 and character.isalpha():     # character.isalpha() --> En
     else:
         print('It is a cosonant')
 else:
-    print('Pleasee enter signlee alphbet ')
+    print('Pleasee enter single alphbet ')
     

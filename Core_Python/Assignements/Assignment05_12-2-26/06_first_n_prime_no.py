@@ -12,7 +12,7 @@ while count < num:      # to execute all conditons till we want
             break
     
     else:
-        print(n)            # then print that number which is prime
+        print(n,end=' ')            # then print that number which is prime
         count += 1          # to execute further loop till n
         
     n += 1

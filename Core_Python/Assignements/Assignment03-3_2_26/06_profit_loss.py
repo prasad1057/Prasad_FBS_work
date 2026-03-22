@@ -1,10 +1,10 @@
 # 6. Write a program to calculate profit or loss.
 
-selling_price = int(input('ENter the Selling Price: '))
-cost_price = int(input('ENter the Cost Price: '))
+# selling_price = int(input('ENter the Selling Price: '))
+# cost_price = int(input('ENter the Cost Price: '))
 
-profit = selling_price - cost_price
-loss = cost_price - selling_price
+# profit = selling_price - cost_price
+# loss = cost_price - selling_price
 
 selling_price = int(input("Enter the Selling Price: "))
 cost_price = int(input("Enter the Cost Price: "))
