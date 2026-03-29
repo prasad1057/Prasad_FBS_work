@@ -1,3 +1,13 @@
+'''
+1 2 3 4 5 6 
+2       6   
+3     6     
+4   6       
+5 6         
+6 
+'''
+
+
 n = int(input('ENter the number: '))
 
 for i in range(1,n+1):
