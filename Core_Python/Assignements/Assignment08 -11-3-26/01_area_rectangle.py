@@ -31,6 +31,7 @@ areaRect2(length,breadth)
 # wihtout passing parameter
 # with returning value
 def areaRect3():
+    
     length = float(input('Enter the length of rectangle: '))
     breadth = float(input('Enter the breadth of rectangle: '))
     

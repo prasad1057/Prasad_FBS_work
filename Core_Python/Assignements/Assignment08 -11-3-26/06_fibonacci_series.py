@@ -11,36 +11,39 @@ functions:
 def fibonacci1():
     n = int(input("Enter number: "))
     
+    
     a = 0
-    b = 0
-    c = 1
+    b = 1
+    
+    #series=[]
     
     for i in range(1,n+1):
+        c = a+b
+        print(c,end=' ')
         a = b
         b = c
-        c = a + b
-        print(b, end=" ")
-        
+    
 fibonacci1()
 
 
 
 # with passing parameter
 # without return value
-def fibonacci2(a,b,c,n):
+def fibonacci2(n):
+    
+    a = 0
+    b = 1
+    
+    #series=[]
     
     for i in range(1,n+1):
-        a = b 
+        c = a+b
+        print(c,end=' ')
+        a = b
         b = c
-        c = a + b
-        print(b,end=' ')
 
 n = int(input("Enter number: "))
-a = 0
-b = 0
-c = 1
-
-fibonacci2(a,b,c,n)    
+fibonacci2(n)    
     
     
 
@@ -49,16 +52,15 @@ fibonacci2(a,b,c,n)
 def fibonacci3():
     n = int(input("Enter number: "))
     a = 0
-    b = 0
-    c = 1
-    series = []
+    b = 1
+    
+    series=[]
     
     for i in range(1,n+1):
+        c = a+b
+        series.append(c)
         a = b
         b = c
-        c = a + b
-        series.append(b)        # if we want to print whole series then we have to use list 
-        
     return series
 
 result = fibonacci3()
@@ -69,21 +71,19 @@ print(result)       #print(fibonacci3())
 
 # with passing parameter
 # with return value
-def fibonacci4(a,b,c,n,series):
+def fibo(n):
+    
+    a = 0
+    b = 1
+    
+    series=[]
     
     for i in range(1,n+1):
+        c = a+b
+        series.append(c)
         a = b
         b = c
-        c = a + b
-        
-        series.append(b)
     return series
     
-n = int(input("Enter number: "))
-a = 0
-b = 0
-c = 1
-series = []
-
-result = fibonacci4(a,b,c,n,series)
-print(result)
+n = int(input('enter: '))
+print(fibo(n))  

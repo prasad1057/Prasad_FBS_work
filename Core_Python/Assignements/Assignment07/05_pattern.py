@@ -23,3 +23,10 @@ for i in range(1, n+1):
             print("  ",'', end=" ")
 
     print()
+    
+    
+'''
+j == 1  --> The first element (left border) of every row.
+j == i  --> The last element (right border) of every row.
+i == n  --> The entire last row.
+'''

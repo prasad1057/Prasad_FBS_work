@@ -10,9 +10,15 @@ def sumEven1():
     sum = 0
     
     for i in range(1,n+1):
-        if (i % 2) == 0:
-            sum += i
-    print('Sum of even numbers:',sum)
+        
+        count = 0
+        for j in range(1,i+1):
+            if i % j == 0:
+                count += 1
+                
+        if count == 2:
+            sum += 1
+    print('Sum of EVen numbers:',sum)
     
 sumEven1()
 
@@ -21,10 +27,17 @@ sumEven1()
 # without return value
 def sumEven2(n,sum):
     
+    
     for i in range(1,n+1):
-        if (i % 2) == 0:
-            sum += i
-    print('Sum of even numbers:',sum)
+        
+        count = 0
+        for j in range(1,i+1):
+            if i % j == 0:
+                count += 1
+                
+        if count == 2:
+            sum += 1
+    print('Sum of even number:',sum)
     
 n = int(input('Enter nmber:'))
 sum = 0
@@ -39,8 +52,14 @@ def sumEven3():
     sum = 0
     
     for i in range(1,n+1):
-        if (i % 2) == 0:
-            sum += i
+        
+        count = 0
+        for j in range(1,i+1):
+            if i % j == 0:
+                count += 1
+                
+        if count == 2:
+            sum += 1
     return sum
 
 result = sumEven3()
@@ -49,15 +68,21 @@ print('Sum of even numbers:',result)
 
 # with passing parameter
 # with return value
-def sumEven3(n,sum):
+def sum_prime(n):
+    sum = 0
     
     for i in range(1,n+1):
-        if (i % 2) == 0:
-            sum += i
+        
+        count = 0
+        for j in range(1,i+1):
+            if i % j == 0:
+                count += 1
+                
+        if count == 2:
+            sum += 1
     return sum
-
-n = int(input('Enter nmber:'))
-sum = 0
-
-result = sumEven3(n,sum)
+    
+    
+n = int(input('enter: '))
+result = sum_prime(n)
 print('Sum of even numbers:',result)

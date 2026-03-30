@@ -11,22 +11,19 @@
 
 n = int(input('Enter the number: '))
 
-for i in range(1, n+1):
-
-    # spaces
-    for j in range(n-i):
-        print(" ", end=" ")
-
-    # increasing numbers
-    num = i
-    for j in range(i):
-        print(num, end=" ")
-        num = num + 1
-
-    # decreasing numbers
-    num = num - 2
-    for j in range(i-1):
-        print(num, end=" ")
-        num = num - 1
-
+for i in range(1, n + 1):
+    # 1. Leading spaces
+    for j in range(1, n+1-i):
+        print(' ', end=' ')
+        
+        
+    # 2. Count up from i to (2*i - 1)
+    for k in range(i, 2*i):
+        print(k, end=' ')
+        
+        
+    # 3. Count down from (2*i - 2) back to i
+    for l in range(2*i-2, i-1,-1):
+        print(l, end=' ')
+        
     print()
