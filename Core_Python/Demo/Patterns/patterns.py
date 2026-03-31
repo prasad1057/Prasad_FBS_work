@@ -53,10 +53,10 @@ for i in range(1,6):                    # 4
 print('-----------------------')
 
 
-for i in range(1,6):                    # 4
-    for j in range(1,i):                # 4 3
-        print(j, end=' ')               # 4 3 2
-    print()                             # 4 3 2 1
+for i in range(1,6):                    # 1
+    for j in range(1,i):                # 1 2
+        print(j, end=' ')               # 1 2 3
+    print()                             # 1 2 3 4
     
     
 print('-----------------------')
