@@ -1,13 +1,19 @@
 # 8. Write a program to check whether a number is prime or not using recursion.
 
-def prime_or_not(n):
-    if n == 0:
-        return 0
-    else:
-        return (n % i)
-    
-n = int(input('ENter the number: '))
+# Recursive function to check prime
+def prime_number(n, i=2):
+    if n <= 2:
+        return True if n == 2 else False
+    if n % i == 0:
+        return False
+    if i * i > n:
+        return True
+    return prime_number(n, i + 1)
 
-for i in range(n):
-    prime_or_not(i)
-        
+num = int(input("Enter a number: "))
+
+# Function call
+if prime_number(num):
+    print("Prime Number")
+else:
+    print("Not Prime Number")

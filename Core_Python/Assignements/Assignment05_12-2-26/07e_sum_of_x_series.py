@@ -15,7 +15,7 @@ for i in range(1,n+1):
     if i % 2 == 0:
         total_sum = total_sum - term    # if i is even then subtract from total sum
     else:
-        total_sum = total_sum + term    # if i is odd then add into  total sum  
+        total_sum = total_sum + term    # if i is odd then add into total sum  
      
         
 print("Sum of series =", total_sum)
