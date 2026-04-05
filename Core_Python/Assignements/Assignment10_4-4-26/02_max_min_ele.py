@@ -1,0 +1,1 @@
+# 2. Write a program to find maximum and minimum element in a list.
