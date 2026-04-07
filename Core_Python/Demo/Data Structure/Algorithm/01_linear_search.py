@@ -1,7 +1,7 @@
 def linearSearch(list1,search_ele):
     for i in range(0,len(list1)):
-        if search_ele == list1[i]:      # check condition if our element is equal to cureent value of list
-            return i            #it return the element that u have to search
+        if search_ele == list1[i]:      # check condition if our element is equal to current value of list
+            return i                    #it return the element that u have to search
 
     else:
         return -1
@@ -19,7 +19,7 @@ else:
     
     
     
-    
+#------------------------------------------------------------------- 
 ## Search in List of strings
     
 def linearSearch2(names,search_key):
