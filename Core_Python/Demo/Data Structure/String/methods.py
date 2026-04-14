@@ -3,23 +3,27 @@
 
 
 '''
-upper()         → Converts all characters in the string to uppercase.
-lower()         → Converts all characters in the string to lowercase.
-rstrip()        → Removes trailing spaces or characters from the right side of the string.
-replace()       → Replaces a specified substring with another substring.
-split()         → Splits the string into a list of words based on a separator (default is space).
-center()        → Aligns the string in the center with specified width and fill character.
-startswith()    → Returns True if the string starts with a specified value.
-endswith()      → Returns True if the string ends with a specified value.
-find()          → Returns the index position of the first occurrence of a substring.
-isalnum()       → Returns True if the string contains only letters and numbers.
-isalpha()       → Returns True if the string contains only alphabet letters.
-islower()       → Returns True if all letters in the string are lowercase.
-isprintable()   → Returns True if all characters in the string are printable.
-isspace()       → Returns True if the string contains only whitespace characters.
-istitle()       → Returns True if the string is in title case (each word starts with a capital letter).
-swapcase()      → Converts uppercase to lowercase and lowercase to uppercase.
-title()         → Converts the first letter of each word to uppercase.
+
+capitaliza()           -> Makes the first letter capital and the rest lowercase.
+count()                -> Counts how many times a substring appears in a string.
+endswith()             -> Checks if the string ends with a given value.
+find()                 -> Returns the position (index) of the first occurrence of a substring. 
+index()                -> Returns the index of a substring (gives error if not found).
+isalnum()              -> Returns True if string contains only letters and numbers.
+isalpha()              -> Returns True if string contains only alphabet letters.
+isdigit()              -> Returns True if string contains only digits.
+islower()              -> Returns True if all letters are lowercase.
+isspace()              ->Returns True if string contains only spaces.
+isuuper()              -> Returns True if all letters are uppercase.
+join                   -> Joins elements of a list into one string using a separator.
+lower()                -> Converts all letters to lowercase.
+split()                -> Splits a string into a list using a separator.
+replace()              -> Replaces a word or character with another.
+startswith()           -> Checks if string starts with a given value.
+strip()                -> Removes characters (or spaces) from both sides of a string.
+swapcase()             -> Converts uppercase letters to lowercase and lowercase letters to uppercase.
+title()                -> Converts the first letter of each word to uppercase.
+
 '''
 
 
