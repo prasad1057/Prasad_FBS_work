@@ -1,5 +1,4 @@
-# 10.Python Program to Take in Two Strings and Display the Larger String without Using Built-in Functions
-
+# 15. Python Program to find larger string without using built-in functions.
 
 
 def larger_string(str1,str2):
