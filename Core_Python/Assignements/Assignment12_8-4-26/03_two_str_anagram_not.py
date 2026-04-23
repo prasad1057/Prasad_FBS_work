@@ -20,7 +20,7 @@ if sorted(str1) == sorted(str2):
 else:
     print("Not Anagram")
 
-
+#-----------------------------------
 
 str1 = str(input('Enter the string1: '))
 str2 = str(input('Enter the string2: '))
