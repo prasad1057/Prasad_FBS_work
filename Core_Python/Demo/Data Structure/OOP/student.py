@@ -1,3 +1,6 @@
+# Without Constructor
+
+'''
 class Student:
     
     def setData(self, roll_no, name, age):
@@ -23,3 +26,24 @@ obj2.setData(2,'Karan', 23)
 obj1.getData()
 print('######################')
 obj2.getData()
+
+'''
+
+# WIth Constructor
+
+class Student:
+    
+    def __init__(self,  roll_no, name, age):
+
+        self.rn = roll_no
+        self.nm = name
+        self.age = age
+        
+    def getData(self):
+        print('ROLL NO:',self.rn)
+        print('NAME:',self.nm)
+        print('AGE',self.age)
+        
+
+s1 = Student(1,'Prasad', 22)
+s1.getData()
