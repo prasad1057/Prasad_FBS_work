@@ -20,7 +20,9 @@ class Time:
         return f'{h}:{m}:{s}'
     
     
+    
 t1 = Time(5,45,30)
 t2 = Time(12,44,1)
+t3 = Time(2,24,12)
 
-print(t1 + t2)
+print(t1 + t2 + t3)
