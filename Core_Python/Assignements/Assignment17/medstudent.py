@@ -76,7 +76,20 @@ class MedStudent(Student):
         
     
     def CalRank(self):
-        return super().CalRank()
+
+        if self.percentage >= 90:
+            print("Excellent Medical Rank")
+
+        elif self.percentage >= 75:
+            print("Very Good Medical Rank")
+
+        elif self.percentage >= 60:
+            print("Good Medical Rank")
+
+        else:
+            print("Needs Improvement")
+        
+        
     
     
     def __str__(self):
