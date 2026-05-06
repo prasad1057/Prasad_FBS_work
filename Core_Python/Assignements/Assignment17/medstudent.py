@@ -100,4 +100,4 @@ class MedStudent(Student):
 m1 = MedStudent(101, 'Prasad', 21, 89, 'Nursing', 500)
 m1.Accept()
 print('---------------')
-m1.display()
+m1.display() 

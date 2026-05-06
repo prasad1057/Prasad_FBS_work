@@ -72,3 +72,6 @@ class Student:
 # s1.CalculateRank()
 
 # print(s1)
+
+
+
