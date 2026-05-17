@@ -1,7 +1,7 @@
 # 1. Python Program to Put Even and Odd elements of a List into two Different Lists
 
 
-def evenOdd():
+def evenOdd(list1):
     
     even_lst = []
     odd_lst = []
@@ -16,8 +16,16 @@ def evenOdd():
     
     
     
-list1 = [1,2,3,4,5,6,7,8,9,10]
+list1 = []
 
-a,b = evenOdd()
+n = int(input("Enter number of elements: "))
 
-print(f'Even List: {a} and Odd List: {b}')
+for i in range(n):
+    ele = int(input("Enter number that you add in list: "))
+    list1.append(ele)
+
+
+a, b = evenOdd(list1)
+
+print(f'Even List: {a}')
+print(f'Odd List: {b}')

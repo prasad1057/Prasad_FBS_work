@@ -25,7 +25,7 @@ def bubbleSecEleSort():
             # Compare second element (index 1)
             if list1[j][1] > list1[j + 1][1]:
                 
-                # Swap entire sublists
+                # Swap sublists
                 list1[j], list1[j + 1] = list1[j + 1], list1[j]
                 
 
