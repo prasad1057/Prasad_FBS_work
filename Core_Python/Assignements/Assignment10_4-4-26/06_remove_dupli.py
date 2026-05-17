@@ -9,6 +9,8 @@ def remEle(list1,new_list):
     for i in list1:
         count += 1
         
+        
+        
     for i in range(0,count):
         
         if list1[i] not in new_list:

@@ -12,8 +12,17 @@ def removeEven(list1):
             
     return new_list
 
-list1 = [1,2,3,4,5,6,7,8,9,10,11,12,13]
+
+list1 = []
+
+n = int(input("Enter number of elements: "))
+
+for i in range(n):
+    ele = int(input("Enter number that you add in list: "))
+    list1.append(ele)
+
+print("Before removing even numbers:", list1)
 
 result = removeEven(list1)
 
-print('After remvoing evene numbers:',result)
+print("After removing even numbers:", result)
