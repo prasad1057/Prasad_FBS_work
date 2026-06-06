@@ -1,4 +1,4 @@
-with open('\FBS\Core_Python\Demo\File Handling\demo.txt','r+') as fp:
+with open(' ','r+') as fp:
     
     print('Cursor Position:',fp.tell())
     
