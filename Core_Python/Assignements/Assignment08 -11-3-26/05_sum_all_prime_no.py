@@ -85,4 +85,4 @@ def sum_prime(n):
     
 n = int(input('enter: '))
 result = sum_prime(n)
-print('Sum of even numbers:',result)
+print('Sum of ptime numbers:',result)
