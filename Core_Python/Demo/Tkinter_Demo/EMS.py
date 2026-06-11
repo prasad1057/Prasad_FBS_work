@@ -10,22 +10,61 @@ def clearScreen():
 
 
 def empManage():
+    
+    def loadData():
+        mylist.delete(0, END)
+        with open('Core_Python/Demo/Tkinter_Demo/emp_details.txt', 'r') as fp:
+            for row in fp:
+                mylist.insert(END, row)
+        
    # messagebox.showinfo(message='Logged in successful.')
-    clearScreen()
     
     def addEmp():
         id = id_entry.get()
         nm = nm_entry.get()
         sal = sal_entry.get()
+        edata = f'{id}, {nm}, {sal}'
+        mylist.insert(END, edata)
+        
+        with open('Core_Python/Demo/Tkinter_Demo/emp_details.txt', 'a') as fp:
+            fp.write(edata+'\n')
+        #messagebox.showinfo(message='Employee addes successfully.')
     
     def selectEmp():
-        pass
+        edata = mylist.get(ACTIVE)
+        elist = edata.split(', ')
+        id_entry.insert(0,elist[0])
+        nm_entry.insert(0,elist[1])
+        sal_entry.insert(0,elist[2])
     
     def updateEmp():
-        pass
-    
+        id = id_entry.get()
+        nm = nm_entry.get()
+        sal = sal_entry.get()
+        sal = sal.strip('\n')
+        
+        all_emp_lst = []
+        
+        with open('Core_Python/Demo/Tkinter_Demo/emp_details.txt', 'r') as fp:
+            for edata in fp:
+                elist = edata.split(', ')
+                if (elist[0] == id):
+                    edata = f'{id}, {nm}, {sal}'
+                    all_emp_lst.append(edata)
+                else:
+                    all_emp_lst.append(edata)
+        
+        with open('Core_Python/Demo/Tkinter_Demo/emp_details.txt', 'w') as fp:
+            for edata in all_emp_lst:
+                 fp.write(edata+'\n')
+         
+        loadData()
+        
     def deleteEmp():
         pass
+    
+    
+    clearScreen()
     
     frame1 = Frame(window)
     frame2 = Frame(window)
@@ -71,6 +110,9 @@ def empManage():
     scrollbar.config(command=mylist.yview)
     
     frame3.pack()
+    
+    
+    loadData()
     
 
 def login():
