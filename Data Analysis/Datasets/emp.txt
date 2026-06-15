@@ -1,0 +1,9 @@
+emp = pd.DataFrame({'Name':['Akshay', 'Rohit', 'Virat', 'John', 'Michael'],
+                   'Age':[32, 45, 28, 35, 27],
+                   'Salary':[45000, 38000, 29000, 50000, 41000],
+                   'DID':[1, 2, 2, 3, 4]})
+emp
+
+dept = pd.DataFrame({'DID':[1, 2, 3, 5],
+                    'Name':['Software Dev', 'Admin', 'Data analysis', 'Data science']})
+dept
