@@ -55,6 +55,7 @@ s1 = Shirt(101, "Arrow", "Formal", 1000, "small")
 s2 = Shirt(101, "CottonKing", "Casual", 1500, "medium")
 s3 = Shirt(101, "CamBridge", "Formal", 800, "large")
 s4 = Shirt(101, "Arrow", "Formal", 1000, "xlarge")
+s5 = Shirt(101, "H&M", "Casual", 2000, "xlarge")
 
 
 s1.showShirt()
@@ -63,6 +64,7 @@ print("Price After Size change(s1):",s1.applyDisShirt())
 print("Price After Size change(s1):",s2.applyDisShirt())
 print("Price After Size change(s3):",s3.applyDisShirt())
 print("Price After Size change(s4):",s4.applyDisShirt())
+print("Price After Size change(s4):",s5.applyDisShirt())
             
           
         
