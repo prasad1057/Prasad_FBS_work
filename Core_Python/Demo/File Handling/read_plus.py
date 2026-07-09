@@ -12,6 +12,6 @@ with open(' ','r+') as fp:
     fp.write('\nABCD')
     print('Cursor Position:',fp.tell())
     
-    #fp.seek(0,0)               # if u dont use this then it ownt give anything beacuse the seek(0,0) says that read all conetnt from starting.
+    #fp.seek(0,0)               # if u dont use this then it won't give anything beacuse the seek(0,0) says that read all conetnt from starting.
     print(fp.read())
 

@@ -36,6 +36,15 @@
 34. what is synonym
 35. is it possible join in views
 36. do you have use group by in view
+37. what is use of check constarint
+38. what is use set operator
+39. is it possible to do union in 3 tables and what are cateories of doing this like check datatpes,columns
+40. what is between & and
+41. can we drop primary key
+42. if i dont make primary key on table then later on we can add primary key or make column as primary column
+43. suppose i add a new column and in that i want to add or copy the existing one column  can we did 
+44. what is IN operator
+
 
 
 
@@ -57,3 +66,4 @@
 14. can u show the row id from table 
 15. what is row id and row number
 16. does row id take physical space
+17. write a query for cross join
