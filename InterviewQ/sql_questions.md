@@ -67,3 +67,4 @@
 15. what is row id and row number
 16. does row id take physical space
 17. write a query for cross join
+17. write a query for cross join
