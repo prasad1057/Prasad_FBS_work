@@ -44,6 +44,7 @@
 42. if i dont make primary key on table then later on we can add primary key or make column as primary column
 43. suppose i add a new column and in that i want to add or copy the existing one column  can we did 
 44. what is IN operator
+45. what is trigger
 
 
 
@@ -66,5 +67,4 @@
 14. can u show the row id from table 
 15. what is row id and row number
 16. does row id take physical space
-17. write a query for cross join
 17. write a query for cross join
