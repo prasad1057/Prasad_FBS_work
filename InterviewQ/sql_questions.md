@@ -45,6 +45,8 @@
 43. suppose i add a new column and in that i want to add or copy the existing one column  can we did 
 44. what is IN operator
 45. what is trigger
+46. explain aggregate funtions
+47. explain proceduaral language
 
 
 
