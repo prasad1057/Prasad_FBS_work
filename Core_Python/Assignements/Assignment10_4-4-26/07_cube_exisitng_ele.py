@@ -2,13 +2,16 @@
 
 def cubeList(list1,cube_list):
     
-    count = 0
+    # count = 0
+    # for i in list1:
+    #     count += 1
+        
+    # for i in range(1,count):
+        
+    #     cube_list.append(list1[i] ** 3)
+    
     for i in list1:
-        count += 1
-        
-    for i in range(1,count):
-        
-        cube_list.append(list1[i] ** 3)
+        cube_list.append(i ** 3)
             
     return cube_list
     

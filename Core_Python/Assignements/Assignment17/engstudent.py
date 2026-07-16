@@ -98,7 +98,7 @@ e1. display()
 
 
 
-print('############## SUper CLass Information ##############')
+print('############## Super CLass Information ##############')
 
 s1 = Student(102, 'karan', 12, 56)
 

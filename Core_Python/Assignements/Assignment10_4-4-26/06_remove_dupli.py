@@ -15,6 +15,10 @@ def remEle(list1,new_list):
         
         if list1[i] not in new_list:
             new_list.append(list1[i])
+    
+    # for i in list1:
+    #     if i not in new_list:
+    #         new_list.append(i)
             
     return new_list
 
