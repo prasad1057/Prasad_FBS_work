@@ -2,8 +2,9 @@
 
 
 
-def wordFrequency(str1):
+def wordFrequency():
 
+    str1 = input("Enter a string: ")
     words = str1.split()
 
     dict1 = {}
@@ -18,9 +19,6 @@ def wordFrequency(str1):
     return dict1
 
 
-str1 = input("Enter a string: ")
 
-result = wordFrequency(str1)
-
-print("Word Frequency:")
-print(result)
+result = wordFrequency()
+print("Word Frequency:",result)

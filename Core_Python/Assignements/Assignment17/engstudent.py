@@ -11,7 +11,7 @@ iv. override Method CalculateRank
 v. Override __str__ Method
 '''
 
-from student import Student
+
 
 # class Student:
 #     def __init__(self, stdId, name, age, percentage):
@@ -46,7 +46,8 @@ from student import Student
 #         return f"Student INFO({self.stdId}, {self.name}, {self.age}, {self.percentage})"
     
     
-    
+from student import Student
+
     
 class EnggStudent(Student):
     def __init__(self, stdId, name, age, percentage, branch, internalMarks):
