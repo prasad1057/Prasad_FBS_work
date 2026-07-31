@@ -18,3 +18,15 @@ number = number // 10
 sum_of_digits = d1 + d2 + d3
 
 print('Sum of three-digit number is:', sum_of_digits)
+
+
+
+
+# sum = 0
+# for i in range(1,number+1):
+#     for j in i:
+#         digit = number % 10
+#         sum += digit
+#         number = number // 10
+    
+# print(sum)
