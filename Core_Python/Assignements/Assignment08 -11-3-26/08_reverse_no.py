@@ -56,8 +56,9 @@ print('Reverse No:',result)
 
 # with passing parameter
 # with return value
-def reverse_no4(n,rev_no):
-    
+def reverse_no4(n):
+
+    rev_no = 0
     while (n > 0):
         digit = n % 10
         rev_no = rev_no * 10 + digit
@@ -65,7 +66,7 @@ def reverse_no4(n,rev_no):
     return rev_no
 
 n = int(input('Enter the number: '))
-rev_no = 0
 
-result = reverse_no4(n,rev_no)
+
+result = reverse_no4(n)
 print('Reverse No:',result)

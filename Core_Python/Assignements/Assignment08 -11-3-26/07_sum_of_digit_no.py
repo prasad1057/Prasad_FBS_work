@@ -58,8 +58,9 @@ print('Sum of digit:',result)
 
 # with passing parameter
 # with return value
-def sum_digit4(n,total):
-    
+def sum_digit4(n):
+
+    total = 0
     while(n > 0):
         digit = n % 10
         total = digit + total
@@ -67,7 +68,6 @@ def sum_digit4(n,total):
     return total
 
 n = int(input("Enter number: "))
-total = 0
 
-result = sum_digit4(n,total)
+result = sum_digit4(n)
 print('Sum of digit:',result)
