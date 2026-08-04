@@ -1,16 +1,14 @@
 # 6. Write a program to remove duplicates from the list.
 
 
-def remEle(list1,new_list):
-    
+def remEle(list1):
     
     count = 0
     
     for i in list1:
         count += 1
-        
-        
-        
+
+    new_list = []
     for i in range(0,count):
         
         if list1[i] not in new_list:
@@ -23,10 +21,7 @@ def remEle(list1,new_list):
     return new_list
 
 
-
 list1 = [11,22,13,54,35,56,67,8,99,10,22,13,11]
-new_list = []
-
-print(remEle(list1,new_list))
+print(remEle(list1))
 
 

@@ -7,9 +7,9 @@ def MinMax(list1):
     max = list1[0]
     min = list1[0]
     
-    count = 0
+    count = 0               #count = len(list1)   # Store the length in a variable
     
-    for i in list1:         #to print the count of all elements present in the list
+    for i in list1:         #to print the count of all elements present in the list         
         count += 1
     
     for i in range(1,count):

@@ -2,6 +2,13 @@
 
 def devByMn(list1):
 
+    size = int(input("Enter number of elements: "))
+
+    for i in range(size):
+        ele = int(input("Enter number that you add in list: "))
+        list1.append(ele)
+
+
     m = int(input('Enter the value of m: '))
     n = int(input('Enter the value of n: '))
 
@@ -13,15 +20,7 @@ def devByMn(list1):
 
     return divisible_list
 
-
 list1 = []
-
-size = int(input("Enter number of elements: "))
-
-for i in range(size):
-    ele = int(input("Enter number that you add in list: "))
-    list1.append(ele)
-
 result = devByMn(list1)
 
 print("Original List:", list1)

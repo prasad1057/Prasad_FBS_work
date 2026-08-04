@@ -6,7 +6,7 @@ def SecMax(list1):
     max = list1[0]
     sec_max = 0
     
-    count = 0
+    count = 0           
     for i in list1:         #to print the count of all elements present in the list
         count += 1
         

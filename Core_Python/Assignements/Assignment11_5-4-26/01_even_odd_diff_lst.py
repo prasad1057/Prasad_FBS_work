@@ -2,6 +2,12 @@
 
 
 def evenOdd(list1):
+
+    n = int(input("Enter number of elements: "))
+
+    for i in range(n):
+        ele = int(input("Enter number that you add in list: "))
+        list1.append(ele)
     
     even_lst = []
     odd_lst = []
@@ -15,16 +21,7 @@ def evenOdd(list1):
     return even_lst,odd_lst
     
     
-    
 list1 = []
-
-n = int(input("Enter number of elements: "))
-
-for i in range(n):
-    ele = int(input("Enter number that you add in list: "))
-    list1.append(ele)
-
-
 a, b = evenOdd(list1)
 
 print(f'Even List: {a}')

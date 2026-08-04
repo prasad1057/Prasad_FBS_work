@@ -14,7 +14,6 @@ def evenOdd(list1):
     
     for i in range(n):
         ele = int(input('Enter the element that u want to add in list: '))
-        
         list1.append(ele)
         
         if ele % 2 == 0:
@@ -26,7 +25,6 @@ def evenOdd(list1):
 
 
 list1 = []
-
 even_list, odd_list = evenOdd(list1)
 
 
