@@ -16,4 +16,15 @@ while count < num:      # to execute all conditons till we want
         count += 1          # to execute further loop till n
         
     n += 1
-        
+
+#----------------------------------------------------------------
+
+num = int(input("Enter limit: "))
+n = 2
+
+for n in range(2, num + 1):
+    for j in range(2, n):
+        if n % j == 0:
+            break
+    else:
+        print(n, end=" ")

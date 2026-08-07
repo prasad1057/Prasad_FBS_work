@@ -8,6 +8,7 @@ def removeOddIdx(str1):
     for i in range(len(str1)):
         if i % 2 == 0:                  #store all even index values in result
             result += str1[i]
+
             
     return result
             

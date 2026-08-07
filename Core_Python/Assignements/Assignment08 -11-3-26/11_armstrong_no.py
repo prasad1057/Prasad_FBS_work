@@ -37,7 +37,7 @@ def armstrong2(n):
     og_no = n
     
     temp = n
-    count = 0
+    count = 0               #count=len(n)
     while(temp > 0):
         count += 1
         temp = temp // 10
@@ -46,7 +46,7 @@ def armstrong2(n):
     sum = 0
     while (temp > 0):
         digit = temp % 10
-        sum += digit ** count
+        sum += digit ** count  
         temp = temp // 10
         
     if og_no == sum:

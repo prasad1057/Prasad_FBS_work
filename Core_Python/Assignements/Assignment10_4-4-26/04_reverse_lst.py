@@ -6,7 +6,7 @@ def revList(list1):
     end = len(list1) - 1            # store last index number(i.e 10 value index) = 9
     
     while start < end:
-        temp = list1[start]          #store first element in temporary variable
+        temp = list1[start]             #store first element in temporary variable
         list1[start] = list1[end]       #swap last element to first
         list1[end] = temp               #swap temporary ele(first ele) to last
         

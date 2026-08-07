@@ -3,12 +3,19 @@
 
 
 def MinMax(list1):
+
+    # lst = []
+    # num = int(input('ENter the total number of ele: '))
+    # for i in range(1,num+1):
+    #     ele = int(input('Enter number to add into list: '))
+    #     lst.append(ele)
+    # print('List:',lst)
+
     
     max = list1[0]
     min = list1[0]
     
     count = 0               #count = len(list1)   # Store the length in a variable
-    
     for i in list1:         #to print the count of all elements present in the list         
         count += 1
     

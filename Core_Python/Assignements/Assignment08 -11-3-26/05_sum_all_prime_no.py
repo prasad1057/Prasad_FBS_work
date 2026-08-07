@@ -17,7 +17,9 @@ def sumEven1():
                 count += 1
                 
         if count == 2:
-            sum += 1
+            sum += i
+            print(i, end=" ")   # Print the prime number
+            
     print('Sum of EVen numbers:',sum)
     
 sumEven1()
@@ -36,7 +38,9 @@ def sumEven2(n,sum):
                 count += 1
                 
         if count == 2:
-            sum += 1
+            print(i, end=" ")   # Print the prime number
+            sum += i
+
     print('Sum of even number:',sum)
     
 n = int(input('Enter nmber:'))
@@ -59,7 +63,8 @@ def sumEven3():
                 count += 1
                 
         if count == 2:
-            sum += 1
+            print(i, end=" ")   # Print the prime number
+            sum += i
     return sum
 
 result = sumEven3()
@@ -79,7 +84,9 @@ def sum_prime(n):
                 count += 1
                 
         if count == 2:
-            sum += 1
+            print(i, end=" ")   # Print the prime number
+            sum += i            # Add it to the sum
+
     return sum
     
     

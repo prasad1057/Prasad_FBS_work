@@ -21,6 +21,7 @@ term = 1
 for i in range(1,num+1):
     total += term     # 0 1 3 
     term = term * 2  # 2 6
+    print(term,end=' ')
 
 print("Sum of series is:", total)
     
